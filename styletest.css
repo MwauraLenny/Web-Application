@@ -1,0 +1,89 @@
+.index1{justify-content: space-between;
+background-color: darkgrey;
+display: flex;
+margin: auto;
+width: 100%}
+.index1 h2 a{color: wheat;
+font-size: 30px;
+text-decoration: none}
+.index1 .all-links li{list-style: none}
+.index1 .all-links li a{color: red;
+display: flex;
+text-decoration: none;
+margin: 0 10px}
+.index1 .all-links{position: relative;
+display: flex}
+.index1 .all-links a:hover{text-decoration: underline;
+color: dodgerblue}
+
+.home{width: 100%;
+height: 100%;
+background-image: url("island.jpeg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+font-family: cursive}
+
+.home .home-content{width: 90%;
+height: 100vh;
+margin: auto;
+display: flex;
+justify-content: center;
+flex-direction: column}
+
+.home .text-one{font-size: 25px;
+color: forestgreen}
+.home .text-two{font-size: 75px;
+color: crimson;
+font-weight: 600;
+margin-left: -3px}
+
+.home .text-three{font-size: 50px;
+color: blue;margin: 5px}
+
+.home .text-four{font-size: 50px;
+margin:5px;
+color: gold;}
+.home .button{margin: 15px}
+.home .button button{padding: 10px;
+outline: none;
+border-radius: 6px;
+font-size: 25px;
+font-weight: 400;
+background-color: silver;
+color: red;
+cursor:pointer;
+border: 2px solid transparent}
+.home .button button:hover{background-color: forestgreen;
+color: white;
+border-color: transparent}
+
+.about{background-image: url("or_juice.jpeg");
+background-size: cover;
+background-attachment: fixed;
+height:100vh;
+width: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+color: white;
+font-family:"DejaVu Sans"}
+
+
+.about .one{text-align: center;
+font-size: 30px;
+}
+
+.about .three button{margin: 20px;
+padding: 10px}
+
+.about .three button:hover{color: crimson;
+cursor:pointer;
+background-color: moccasin}
+
+h1{text-align: center;
+color: black;
+text-decoration: underline;
+font-size: 30px;
+font-family: "DejaVu Sans"}
